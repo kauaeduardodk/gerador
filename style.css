@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 :root{
-    --branco 
-    --cor-de-fundo:#0089Dc
-    
+--branco: white; 
+--cor-de-fundo:#0C0950;
+--fundo-texto:#0118D8;
+--fundo-senha:#4F1C51;
+--borda:#261FB3;
+--fonte: 'Bebas Neue', sans-serif;
+
+}
+*{
+    font-weight: 400;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
 }
